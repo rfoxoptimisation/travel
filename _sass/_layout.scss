@@ -8,6 +8,13 @@
   position: relative;
 }
 
+.site-header .wrapper {
+  @media screen and (min-width: $on-palm) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 400;
@@ -35,7 +42,11 @@
   }
 
   .page-link {
-    color: $text-color;
+    @media screen and (max-width: $on-palm){
+      color: $text-color;
+    }
+    
+    color: #fff;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -179,7 +190,13 @@
   max-width:100%; 
 
   /* To go behind the nav */
-  margin-top: -55.95px;
+  @media screen and (max-width: $on-palm){
+    margin-top: -55.95px;
+  }
+  @media screen and (min-width: $on-palm) {
+    margin-top: -94px;
+  }
+  
 
   /* Flexbox stuff */
   display: flex;
