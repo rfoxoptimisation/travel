@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -12,15 +10,15 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: 400;
   line-height: $base-line-height * $base-font-size * 2.25;
-  letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: #fff;
+    text-transform: uppercase;
   }
 }
 
@@ -170,7 +168,50 @@
   }
 }
 
+/**
+ * Hero section
+ */
 
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  max-width:100%; 
+
+  /* To go behind the nav */
+  margin-top: -55.95px;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Text styles */
+  text-align: center;
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/Fuego.JPG);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+}
+
+.hero h1 {
+  /* Text styles */
+  font-size: 5em;
+  color: #fff;
+  text-transform: uppercase;
+
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.hero h2 {
+  /* Text styles */
+  color: #fff;
+}
 
 /**
  * Page content
