@@ -30,7 +30,7 @@ twitter_username:
 github_username:  rfoxoptimisation
 
 # used this for post_excerpt at index_page
-excerpt_separator: <!--description-->
+excerpt_separator: <!-- description -->
 
 # Build settings
 theme: minima
