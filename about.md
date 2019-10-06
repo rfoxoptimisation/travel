@@ -2,7 +2,7 @@
 layout: page
 title: About us
 permalink: /about/
-hero_image: url('/travel/assets/img/us.jpg')
+hero_image: us.jpg
 ---
 
 We are Laura and Ryan, a French-British couple based out of Europe who are currently travelling around the world.
