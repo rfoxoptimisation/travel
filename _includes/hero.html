@@ -1,6 +1,12 @@
-<section class="hero">
+<section class="hero"
+    style="background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('{{ site.baseurl }}/assets/img/{{ page.hero_image }}')">
     <div class="hero-inner">
-        <h1>{{ page.hero_heading }}</h1>
+        <h1>{%- if page.title -%}
+                {{ page.title }}
+            {%- elsif page.hero_heading -%}
+                {{ page.hero_heading }}
+            {%- endif -%}
+        </h1>
         <h2>{{ page.hero_subheading }}
         </h2>
     </div>

@@ -1,18 +1,12 @@
 ---
 layout: page
-title: About
+title: About us
 permalink: /about/
+hero_image: url('/travel/assets/img/us.jpg')
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+We are Laura and Ryan, a French-British couple based out of Europe who are currently travelling around the world.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Follow us on our journey and pick up tips on how to travel smart and cheap.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+We don't know our route just yet and we don't need to. We will go wherever our excitement and curiosity takes us and we consider ourselves to be at liberty to travel like this.
