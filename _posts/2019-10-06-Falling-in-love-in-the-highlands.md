@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Falling in love in the highlands
-categories: scotland europe
 hero_image: scotland.jpg
+country: scotland
+continent: europe
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo vel orci porta non pulvinar. Integer vitae justo eget magna fermentum. Non nisi est sit amet facilisis magna etiam tempor orci. Dignissim suspendisse in est ante in nibh mauris cursus mattis. Est sit amet facilisis magna etiam tempor orci eu.
