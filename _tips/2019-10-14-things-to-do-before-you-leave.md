@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our camera setup
+title: Things to do before you leave
 category: tips
 tags: packing camera
 hero_image: us.jpg

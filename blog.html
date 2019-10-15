@@ -1,18 +1,19 @@
 ---
 
 layout: default
-hero_heading: "Website title"
-hero_image: fuego.jpg
+hero_heading: "Latest from the blog"
+hero_image: scotland.jpg
 
 ---
 
 <div class="home">
-    {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-    {%- endif -%}
+
+    <p>
+        We're currently both back in Europe enjoying some time home with friends and family. Here are some of the most
+        recent articles.
+    </p>
 
     {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Recent posts" }}</h2>
     <ul class="post-list">
         {%- for post in site.posts -%}
         <li>
