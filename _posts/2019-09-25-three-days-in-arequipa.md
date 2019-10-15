@@ -69,7 +69,9 @@ This is one:
 
 {% assign allposts = site.posts | group_by: 'category' %}
 {% for category in allposts  %}
+
 ### {{ category.name | capitalize }}
+
 {% assign items = category.items %}
 {% for item in items %}
 
